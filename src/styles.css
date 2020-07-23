@@ -1,0 +1,103 @@
+.App {
+  padding-top: 5%;
+}
+
+@media screen and (min-width: 300px) {
+  .todos {
+    padding-top: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .todos {
+    padding-top: 1%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .todos {
+    padding-top: 1%;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+}
+
+h1,
+h2 {
+  color: teal;
+}
+
+h1,
+h2,
+form {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#ajouter {
+  color: white;
+  background-color: teal;
+  border-radius: 10px;
+  padding: 6px 20px;
+  margin-left: 1em;
+  border: 0px;
+  box-shadow: 1px 1px 5px #555;
+}
+
+#ajouter:hover {
+  cursor: pointer;
+}
+
+.todo {
+  margin-left: 20px;
+}
+
+li {
+  text-align: left;
+  text-decoration: none;
+  margin-right: 20px;
+  vertical-align: middle;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #2b2e2e;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+ul {
+  box-sixing: border-box;
+}
+
+/* Style the list items */
+ul li {
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  list-style: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
+
+#delete {
+  float: right;
+  vertical-align: middle;
+  color: #555;
+  text-align: center;
+}
+
+#delete:hover {
+  color: darkcyan;
+  cursor: pointer;
+}
