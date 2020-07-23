@@ -1,2 +1,2 @@
 # todolist
-Created with CodeSandbox
+A simple todolist built with React
